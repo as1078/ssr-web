@@ -1,0 +1,7 @@
+{
+	"jwtPrivateKey": "jwtPrivateKey",
+	"db": "db",
+	"aws_id": "aws_id",
+	"aws_secret": "aws_secret",
+	"aws_bucket_name": "aws_bucket_name"
+}

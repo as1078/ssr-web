@@ -1,0 +1,7 @@
+{
+	"jwtPrivateKey": "",
+	"db": "mongodb://localhost/ssr-data",
+	"aws_id": "",
+	"aws_secret": "",
+	"aws_bucket_name": ""
+}

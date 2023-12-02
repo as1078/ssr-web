@@ -29,8 +29,9 @@ authRoutes.post("/signup", async (req, res) => {
 	return res.status(200).send({ user, token })
 })
 
-authRoutes.get("/login", async (req, res) => {
-	const result = validateLogin(req.query)
+authRoutes.post("/login", async (req, res) => {
+	console.log(req.body)
+	const result = validateLogin(req.body)
 	if (result.error) return res.status(400).send(getError(result))
 	const loginInfo = result.value
 	let user = await User.findOne({ username: loginInfo.username })

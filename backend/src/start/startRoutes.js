@@ -2,7 +2,7 @@ const authRoutes = require("../routes/authRoutes")
 const clipRoutes = require("../routes/clipRoutes")
 const initRoutes = require("../routes/initRoutes")
 const rootRoutes = require("../routes/rootRoutes")
-const startupRoutes = require("../routes/startupRoutes")
+const startupRoutes = require("../routes/StartupRoutes")
 const { userRoutes } = require("../routes/userRoutes")
 
 function startRoutes(app) {
